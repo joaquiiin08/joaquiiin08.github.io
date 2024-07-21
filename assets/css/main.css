@@ -1106,6 +1106,13 @@ transition: 0.3s; */
   margin-top: 40px;
 }
 
+.contact .infodata { 
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  background: #fff;
+  width: 65%;
+}
+
 .contact .info-item i {
   color: var(--accent-color);
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
@@ -1119,6 +1126,23 @@ transition: 0.3s; */
   transition: all 0.3s ease-in-out;
   margin-right: 15px;
 }
+
+
+.contact .info i {
+  font-size: 20px;
+  color: #149ddd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+
 
 .contact .info-item h3 {
   padding: 0;
@@ -1137,6 +1161,8 @@ transition: 0.3s; */
   background: var(--accent-color);
   color: var(--contrast-color);
 }
+
+
 
 .contact .php-email-form {
   height: 100%;
